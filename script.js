@@ -45,7 +45,7 @@ async function checkW(city){
       document.querySelector(".container").style.background = "linear-gradient(135deg, #48cae4, #e9ecef)";
     }
 
-    document.querySelector(".weather").style.display = "block";
+    document.querySelector(".weather").style.display = "flex";
     document.querySelector(".err").style.display = "none";
   }
 }
